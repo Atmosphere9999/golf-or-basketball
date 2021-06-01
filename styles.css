@@ -1,0 +1,50 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: darkgray;
+    text-shadow: 0px 1px 1px;
+    font-style: italic;
+}
+
+body {
+    background-color: lightgray;
+}
+
+#paragraph {
+    text-decoration: underline;
+}
+p {
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+}
+
+button {
+    width: 100px;
+    height: 26px;
+    border-radius: 15px;
+    background-color: rgb(56, 98, 189);
+    border: solid 1px transparent;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 100;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+    box-shadow: 0px 4px 8px black;
+}
+
+
+#user-entry {
+    border-radius: 10px;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+      color: #eee;
+      background: #121212;
+    }
+
+    a {
+      color: #809fff;
+    }
+  }
